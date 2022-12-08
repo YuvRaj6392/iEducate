@@ -9,23 +9,33 @@
 }
 .nav-list 
 {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
 width: 50%;
-background-color: yellow;
+/* background-color: black */
 }
 
 .nav-list li
 {
-
+list-style: none;
 }
 
 .nav-list li a
 {
+text-decoration: none;
+color: white;
+}
 
+.nav-list li a:hover
+{
+text-decoration: none;
+color: grey;
 }
 
 .rightNav
 {
-    background-color: red;
+    /* background-color: red; */
     width: 50%;
     text-align: right;
 }
@@ -44,4 +54,19 @@ background-color: yellow;
 width:33%;
 border: 3px solid white;
 border-radius: 50%;
+}
+
+
+#search
+{
+    padding:5px;
+    font-size: 0.8em;
+    border-radius: 10%;
+}
+
+.background
+{
+    background:rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+    background-size: cover;
+    background-blend-mode: darken;
 }
