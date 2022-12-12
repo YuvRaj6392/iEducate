@@ -70,3 +70,36 @@ border-radius: 50%;
     background-size: cover;
     background-blend-mode: darken;
 }
+.box-main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+}
+
+.firstSection
+{
+    height: 100vh;
+}
+.f-half
+{
+width: 80%;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.s-half
+{
+    max-width: 30%;
+
+} 
+.s-half img
+{
+    width: 70%;
+    
+
+}
