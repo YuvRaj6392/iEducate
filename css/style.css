@@ -6,6 +6,11 @@
 .navbar
 {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor:pointer
 }
 .nav-list 
 {
@@ -38,6 +43,7 @@ color: grey;
     /* background-color: red; */
     width: 50%;
     text-align: right;
+    padding: 0px 23px;
 }
 
 .logo
@@ -64,6 +70,7 @@ border-radius: 50%;
     border-radius: 10%;
 }
 
+
 .background
 {
     background:rgba(0, 0, 0, 0.7) url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGlicmFyeXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
@@ -79,6 +86,7 @@ border-radius: 50%;
     font-family:Georgia, 'Times New Roman', Times, serif;
     max-width: 50%;
     margin: auto;
+    height: 75%;
 }
 
 .firstSection
@@ -102,4 +110,37 @@ flex-direction: column;
     width: 70%;
     
 
+}
+
+.text-big
+{
+    font-size: 30px;
+}
+
+.text-small
+{
+    font-size: 15px;
+}
+
+.btn
+{
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-sm
+{
+    padding: 3px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin: 5px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
 }
