@@ -144,3 +144,29 @@ flex-direction: column;
     cursor: pointer;
     vertical-align: middle;
 }
+
+.sec-right
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    
+}
+.paras
+{
+    padding: 0 65px;
+}
+.sec-left
+{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
+    
+}
