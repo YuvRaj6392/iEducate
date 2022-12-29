@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+html
+{
+  scroll-behavior: smooth;
+}
 
 .navbar {
   display: flex;
@@ -61,7 +65,8 @@
 }
 
 .background {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7)
+    url("https://plus.unsplash.com/premium_photo-1669223469414-a31fb7dadec7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60");
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -136,7 +141,7 @@
   margin-bottom: 20px;
 }
 .paras {
-  padding: 0 65px;
+  padding: 0px
 }
 .sec-left {
   
